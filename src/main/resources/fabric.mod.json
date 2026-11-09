@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "stringmod",
+  "version": "${version}",
+  "name": "String Command",
+  "description": "Adds /string, usable by anyone (no OP needed), which fills every empty inventory slot with a stack of string.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.stringmod.StringMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
